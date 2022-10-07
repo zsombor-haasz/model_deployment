@@ -13,7 +13,8 @@ st.write('''
     [MLflow](https://mlflow.org/docs/latest/index.html) | 
 	[Docker](https://docs.docker.com/get-started/) | 
     [Gradio](https://gradio.app/docs/) | 
-    [BentoML](https://docs.bentoml.org/en/latest/index.html)
+    [BentoML](https://docs.bentoml.org/en/latest/index.html) |
+    [Google Cloud Platform](https://cloud.google.com/docs)
 -	[Deploy a machine learning model using flask](https://towardsdatascience.com/deploy-a-machine-learning-model-using-flask-da580f84e60c)
 -   Build a Machine Learning App From Scratch with Flask & Docker [Part 1](https://www.youtube.com/watch?v=S--SD4QbGps) | [Part 2](https://www.youtube.com/watch?v=zGP_nYmZd9c)
 -	Machine Learning Model Deployment with Python (Streamlit + MLflow) | [Part 1/2](https://www.youtube.com/watch?v=zhgRFBWa6bk) | [Part 2/2](https://www.youtube.com/watch?v=RVMIibDbzaE)
