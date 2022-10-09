@@ -32,4 +32,19 @@ st.write('''
 st.code('$ docker build -t streamlit .')
 st.write('4. Run the Docker container:')
 st.code('$ docker run -p 8501:8501 streamlit')
-st.write('5. Push your image to a repository.')
+
+st.write('''5. Push your image to a repository:
+    * Docker Hub
+    * Google Container Registry
+    * Azure Container Registry
+    * Amazon Elastic Container Registry''')
+
+st.markdown('''You can use the Docker CLI, Docker Desktop or the Docker extension for VS Code. Some useful docker commands:
+
+    docker images
+    docker start
+    docker ps
+    docker stop
+    docker ps -a
+    docker exec -it 
+''')
