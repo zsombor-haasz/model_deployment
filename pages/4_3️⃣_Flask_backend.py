@@ -35,7 +35,6 @@ def index():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    print('function started')
     json_ = request.get_json(force=True)
     query_df = pd.DataFrame(json_['data'])
     with open('model.pkl','rb') as f:

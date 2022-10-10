@@ -41,6 +41,8 @@ st.set_page_config(
     page_icon = '🍻'
 )
 
+st.image('streamlit.png', width = 300)
+
 st.title('What is Streamlit?')
 st.markdown(\'''
 * An open-source framework to build beautiful data apps in Python

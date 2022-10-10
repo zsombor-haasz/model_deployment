@@ -22,4 +22,4 @@ with b:
 *   **MLflow** - *with tracking & model registry services*
 *   **BentoML** - *specifically for ML deployment*
 ''')
-st.markdown('3. Containerize the services (**Docker**, **Kubernetes**) and deploy them to the cloud (Heroku, AWS, Azure, GCP)')
+st.markdown('3. Containerize the services (**Docker**) and deploy them to the cloud (AWS, Azure, GCP)')

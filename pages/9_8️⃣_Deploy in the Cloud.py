@@ -9,7 +9,7 @@ st.set_page_config(
 st.title('Deploy your application')
 st.markdown('''
 * You can deploy a standalone Streamlit app on Streamlit Cloud
-* You can deploy a Streamlit app, a machine learning model or a full-fledged web application on Heroku, AWS, Azure, Google Cloud Platform, etc.
+* You can deploy a Streamlit app, a machine learning model or a full-fledged web application on AWS, Azure, Google Cloud Platform, etc.
 ''')
 
 st.markdown('''### Steps of deploying a Docker image:

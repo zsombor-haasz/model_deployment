@@ -36,7 +36,3 @@ services:
     ports:
      - "8080:8080"
      ''')
-
-
-with st.expander('Streamlit & MLflow Tracking & MLflow Rest API'):
-    st.code('hello there!')
