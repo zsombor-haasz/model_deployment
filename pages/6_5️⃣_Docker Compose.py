@@ -17,7 +17,7 @@ st.write('''
 2. Define the services that make up your app in **docker-compose.yml** so they can be run together in an isolated environment.
 3. Run **docker compose up -- build** and the Docker compose command starts and runs your entire app.
 ''')
-st.write('Note: in the POST request, you must replace localhost with host.docker.internal when running in a container.')
+st.write('Note: in the POST request, you must replace localhost with the name of the other container, or host.docker.internal.')
 
 st.markdown('### Docker-compose.yml')
 with st.expander('Streamlit & Flask'):

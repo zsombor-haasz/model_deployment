@@ -10,10 +10,55 @@ st.title('What is MLflow?')
 
 st.markdown('''
 MLflow is an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry. MLflow currently offers four components:''')
-
+buttons = []
 for (i,j) in zip(st.columns(4),['MLflow Tracking','MLflow Projects','MLflow Models','Model Registry']):
     with i:
-        st.markdown(f"<p style='text-align: center; color: green; background-color:'>{j}</p>",unsafe_allow_html=True)
+        #st.markdown(f"<p style='text-align: center; color: green; background-color:'>{j}</p>",unsafe_allow_html=True)
+       buttons.append(st.button(j))
+st.container()
+if buttons[0]:
+    st.info('''
+ - The MLflow Tracking component is an API and UI for logging parameters, code versions, metrics, and output files when running your machine learning code and for later visualizing the results.
+ - MLflow Tracking lets you log and query experiments using Python, REST, R, and Java API.
+
+Storage:
+1. Entity (Metadata) Store: for metrics, parameters, source, version
+    * filesystem, SQL database, local or remote
+2. Artifact Store: for data, models, plots etc.
+    * local filesystem or remote stores like Amazon S3, Azure Blob, Google Cloud
+    ''')
+    st.image('mlflowtracking.png')
+if buttons[1]: 
+    st.info('''
+ - Packaging format for reproducible runs on any platform
+ - You can run the some code with the same results in any environment
+ - Packaged code + config + dependencies + data = reproducible execution
+ - Execution APIs and CLI (*mlflow run my_project*)
+    ''')
+    st.image('mlflowprojects.png')
+if buttons[2]:
+    st.info('''General model format that supports diverse deployment tools''')
+    c1,c2 = st.columns(2)
+    with c1:
+        st.image('mlflowmodels1.png')
+    
+    with c2:
+        st.image('mlflowmodels2.png')
+        
+    c1,c2 = st.columns(2)
+    with c1:
+       
+        st.image('mlflowmodels3.png')
+    with c2:
+        
+        st.image('mlflowmodels4.png')
+if buttons[3]:
+    st.info('''
+- The MLflow Model Registry component is a centralized model store, set of APIs, and UI. 
+- An MLflow Model can be registered with the Model Registry. A registered model has a unique name, contains versions, associated transitional stages, model lineage, and other metadata.
+- After you have registered an MLflow model, you can serve the model as a service on your host.
+''')
+
 
 st.title('How to use MLflow?')
 

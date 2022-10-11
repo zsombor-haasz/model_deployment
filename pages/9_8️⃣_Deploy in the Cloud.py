@@ -18,7 +18,9 @@ Each cloud provider has a container registry: Google Container Registry / Azure 
 2. Authenticate Docker to your container registry
 3. Create a repository in the registry
 4. Push an image to the repository (tag the image, push the image)
-5. Deploy the image with other services: Cloud Run / Amazon Elastic Container Serive (ECS) / Azure Container Instances (ACI) / Kubernetes services (GKE, AKS, EKS)
+5. Deploy the image with other services:
+    * Cloud Run / Azure Container Instances (ACI) / Amazon Elastic Container Serive (ECS)
+    * Google Kubernetes Engine (GKE) / Azure Kubernetes Service (AKS) / Amazon Elastic Kubernetes Service (EKS)  
 ''')
 
 st.markdown(
