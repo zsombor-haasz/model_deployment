@@ -8,7 +8,6 @@ st.set_page_config(
 st.title('BentoML')
 
 st.markdown('''
-Steps:
 1. Train the  machine learning model
 2. Save the model to BentoML local store
 ''')
