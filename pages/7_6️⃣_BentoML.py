@@ -54,7 +54,7 @@ st.code('$ bentoml serve my_regression:2oo4drkayw5lakar --production')
 st.markdown('6. Dockerise the *bento*')
 st.code('$ bentoml containerize my_regression:2oo4drkayw5lakar')
 st.markdown('7. Run bento service via Docker') 
-st.code('$ docker run -p 3000:3000 my_regression:2oo4drkayw')
+st.code('$ docker run -p 3000:3000 my_regression:2oo4drkayw5lakar')
 st.markdown('''
 8. Deployment options: https://docs.bentoml.org/en/latest/concepts/deploy.html
 * Kubernetes: yatai

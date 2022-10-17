@@ -149,4 +149,4 @@ st.write('''
 #st.write(f'Your name from the previous page is: {st.session_state["shared_name"]}')
 
 
-st.markdown('''### Example: [Churn Prediction Model Results](http://localhost:8501)''')
+st.markdown('''### Example: Churn Prediction Model Results''')

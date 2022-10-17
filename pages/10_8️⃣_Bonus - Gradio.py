@@ -16,5 +16,6 @@ st.write('''
 * In Jupyter Notebook
 * In the browser on http://localhost:7860
 * A Gradio interface can automatically generate a public link you can share with colleagues that lets them interact with the model on your computer remotely from their own devices.
+* Upload to Hugging Face. For example: https://huggingface.co/spaces/akhaliq/JoJoGAN
 ''')
 
