@@ -147,6 +147,3 @@ st.write('''
     * The pages will not share their variables, but they will share *st.session_state*. 
     ''')
 #st.write(f'Your name from the previous page is: {st.session_state["shared_name"]}')
-
-
-st.markdown('''### Example: Churn Prediction Model Results''')
